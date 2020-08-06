@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2</title>
+    
+    <title>index</title>
 </head>
 <body>
-    
 
-    <button onclick="displayDate()">GET DATE</button>
-    <p id = "demo"></p>
+    <button onclick="newDate()"> Get Date</button>
+
+    <p id="PAT"></p>
+
 
     <script>
-        function displayDate(){
-          document.getElementById("demo").innerHTML= Date();
 
-        }
-    
+  function newDate(){
+      var today = Date();
+      document.getElementById("PAT").innerHTML = today;
+  }
+   
+
     </script>
-
-
+    
 </body>
 </html>
